@@ -1,38 +1,69 @@
-.App {
+h1{
+  text-align: center;
+  margin-left: 36px;
+}
+
+h2{
+  margin-left: 36px;
+}
+
+.colum-border{
+  border-left: 14px solid black;
+}
+
+.winnerButton{
+  height: 80px;
+  width: 250px;
+  font-size: 20px;
+  background-color: red;
+  margin-left: 31px;
+  border-radius: 40px;
+  background: #cb4e4e;
+  box-shadow: 0 6px #ab3c3c;
+  color: #ffffff;
+  
+}
+
+.win{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.margin{
+  margin-left: 25%;
+  margin-right: 23%;
+}
+
+.align{
+  vertical-align: top;
+}
+
+.ended{
   pointer-events: none;
+  margin-bottom: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.line{
+  width: 50%;
+  border-color: black;
+  margin-left: 60%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button{
+  height: 150px;
+  width: 150px;
+  border: none;
+  background-color: white;
+  font-size: 80px;
 }
 
-.App-link {
-  color: #61dafb;
+:focus {
+  outline: 0 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+hr{
+  width: 252px;
+  border: 6px solid black;
+  margin-top: -4px;
+  margin-bottom: 1px;
+  margin-left: -50px;
 }
